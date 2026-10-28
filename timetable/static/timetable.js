@@ -418,7 +418,7 @@ function setSubstitutionsEnabled(val) {
     document.documentElement.classList.toggle('show-substitutions', val);
 }
 
-function subjectColorRaw(subjectShort, seed = 2) {
+function subjectColorRaw(subjectShort, seed = 1645675200) {
     const custom = localStorage.getItem('subjectColor_' + subjectShort);
     if (custom) return custom;
 
@@ -445,9 +445,9 @@ function subjectColorRaw(subjectShort, seed = 2) {
     return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
 }
 
-function subjectColor(subjectShort, seed = 2) {
+function subjectColor(subjectShort) {
     if (!colorsEnabled) return 'inherit';
-    return subjectColorRaw(subjectShort, seed);
+    return subjectColorRaw(subjectShort);
 }
 
 // Converts hsl(...) string or hex string to a #rrggbb hex value for <input type="color">.

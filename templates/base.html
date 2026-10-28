@@ -23,11 +23,10 @@
 					{% get_current_language as current_lang %}
 					<li class="nav-item lang-switcher">
 						<span class="nav-link lang-current">
-							{% if current_lang == 'pl' %}🇵🇱 PL{% elif current_lang == 'en' %}🇬🇧 EN{% elif current_lang == 'de' %}🇩🇪 DE{% elif current_lang == 'ru' %}🇷🇺 RU{% elif current_lang == 'uk' %}🇺🇦 UK{% else %}{{ current_lang|upper }}{% endif %} <span class="lang-arrow">▾</span>
+							{% if current_lang == 'pl' %}🇵🇱 PL{% elif current_lang == 'de' %}🇩🇪 DE{% elif current_lang == 'ru' %}🇷🇺 RU{% elif current_lang == 'uk' %}🇺🇦 UK{% else %}{{ current_lang|upper }}{% endif %} <span class="lang-arrow">▾</span>
 						</span>
 						<ul class="lang-dropdown">
 							<li><a href="#" onclick="setLang('pl'); return false;">🇵🇱 PL</a></li>
-							<li><a href="#" onclick="setLang('en'); return false;">🇬🇧 EN</a></li>
 							<li><a href="#" onclick="setLang('uk'); return false;">🇺🇦 UK</a></li>
 							<li><a href="#" onclick="setLang('ru'); return false;">🇷🇺 RU</a></li>
 							<li><a href="#" onclick="setLang('de'); return false;">🇩🇪 DE</a></li>

@@ -1,3 +1,0 @@
-DATE_FORMAT = "j E Y"
-DATETIME_FORMAT = "j E Y, H:i"
-MONTH_DAY_FORMAT = 'j E'

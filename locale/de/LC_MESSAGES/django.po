@@ -14,11 +14,11 @@ msgstr ""
 
 #: .\contact\models.py:6
 msgid "Your email address"
-msgstr "Ihre E-Mail-Adresse"
+msgstr "Deine E-Mail Adresse"
 
 #: .\contact\models.py:7
 msgid "Subject"
-msgstr "Betreff"
+msgstr "Thema"
 
 #: .\contact\models.py:8 .\documents\forms.py:38
 msgid "Content"
@@ -31,11 +31,11 @@ msgstr "Kontakt"
 
 #: .\contact\templates\contact\message_form.html:15
 msgid "Send"
-msgstr "Senden"
+msgstr "Sende"
 
 #: .\contact\templates\contact\success.html:5
 msgid "Message sent successfully"
-msgstr "Nachricht erfolgreich gesendet"
+msgstr "Nachricht erfolgreich geschickt"
 
 #: .\contact\templates\contact\success.html:10
 msgid "Success"
@@ -43,7 +43,7 @@ msgstr "Erfolg"
 
 #: .\contact\templates\contact\success.html:11
 msgid "Your message was sent successfully."
-msgstr "Ihre Nachricht wurde erfolgreich gesendet."
+msgstr "Deine Nachricht wurde erfolgreich geschickt"
 
 #: .\contact\templates\contact\success.html:12 .\templates\404.html:13
 #, python-brace-format
@@ -70,12 +70,12 @@ msgstr "Dokumente"
 #: .\documents\templates\delete_item.html:5
 #: .\documents\templates\delete_item.html:11
 msgid "Delete item"
-msgstr "Eintrag löschen"
+msgstr "Lösche das Objekt"
 
 #: .\documents\templates\delete_item.html:13
 #, python-format
 msgid "Are you sure you want to delete \"%(object)s\"?"
-msgstr "Möchten Sie \"%(object)s\" wirklich löschen?"
+msgstr "Bist du sicher, dass du \"%(object)s\" löschen willst?"
 
 #: .\documents\templates\delete_item.html:17
 #: .\documents\templates\edit_document.html:24
@@ -91,34 +91,34 @@ msgstr "Zurück"
 #: .\timetable\templates\reservations.html:36
 #: .\timetable\templates\substitutions.html:51
 msgid "Delete"
-msgstr "Löschen"
+msgstr "Lösche"
 
 #: .\documents\templates\edit_document.html:6
 #: .\documents\templates\edit_document.html:16
 msgid "Edit document"
-msgstr "Dokument bearbeiten"
+msgstr "Editiere das Dokument"
 
 #: .\documents\templates\edit_document.html:8
 #: .\documents\templates\edit_document.html:18
 msgid "Create a document"
-msgstr "Dokument erstellen"
+msgstr "Bilde das Dokument"
 
 #: .\documents\templates\edit_document.html:26
 #: .\documents\templates\edit_file.html:26
 #: .\timetable\templates\add_substitutions.html:49
 #: .\timetable\templates\edit_calendar.html:42
 msgid "Save"
-msgstr "Speichern"
+msgstr "Speichere"
 
 #: .\documents\templates\edit_file.html:6
 #: .\documents\templates\edit_file.html:16
 msgid "Update file"
-msgstr "Datei aktualisieren"
+msgstr "Wechsele die Datei"
 
 #: .\documents\templates\edit_file.html:8
 #: .\documents\templates\edit_file.html:18
 msgid "Create a file"
-msgstr "Datei erstellen"
+msgstr "Bilde die Datei"
 
 #: .\documents\templates\show_category.html:13
 msgid "Subcategories:"
@@ -129,23 +129,23 @@ msgstr "Unterkategorien:"
 #: .\documents\templates\show_mine.html:18
 #, python-format
 msgid "Created on %(created)s."
-msgstr "Erstellt am %(created)s."
+msgstr "Gebildet am %(created)s."
 
 #: .\documents\templates\show_category.html:27
 #: .\documents\templates\show_document.html:21
 #: .\documents\templates\show_mine.html:18
 #, python-format
 msgid "Modified on %(modified)s."
-msgstr "Geändert am %(modified)s."
+msgstr "Modifiziert am %(modified)s."
 
 #: .\documents\templates\show_category.html:45
 #: .\documents\templates\show_mine.html:37
 msgid "Nothing here!"
-msgstr "Hier ist nichts!"
+msgstr "Es gibt hier nichts"
 
 #: .\documents\templates\show_document.html:12
 msgid "Author: "
-msgstr "Autor: "
+msgstr "Verfasser: "
 
 #: .\documents\templates\show_mine.html:5
 #: .\documents\templates\show_mine.html:9
@@ -155,11 +155,11 @@ msgstr "Meine Dokumente"
 
 #: .\documents\templates\show_mine.html:28
 msgid "Edit"
-msgstr "Bearbeiten"
+msgstr "Editiere"
 
 #: .\documents\templates\show_mine.html:42
 msgid "Add a file"
-msgstr "Datei hinzufügen"
+msgstr "Füge die Datei hinzu"
 
 #: .\documents\templates\show_mine.html:45
 msgid "Add a document"
@@ -173,7 +173,7 @@ msgstr "Seite nicht gefunden"
 #: .\timetable\templates\display.html:56
 #: .\timetable\templates\show_substitutions_to_print.html:18
 msgid "Visit the main page"
-msgstr "Zur Startseite gehen"
+msgstr "Besuche die Hauptseite"
 
 #: .\templates\base.html:37 .\timetable\templates\class_timetable.html:5
 #: .\timetable\templates\group_timetable.html:5
@@ -185,7 +185,7 @@ msgstr "Stundenplan"
 
 #: .\templates\base.html:50
 msgid "About"
-msgstr "Über"
+msgstr "Über das Projekt"
 
 #: .\templates\base.html:52 .\timetable\templates\management.html:5
 #: .\timetable\templates\management.html:10
@@ -195,7 +195,7 @@ msgstr "Verwaltung"
 #: .\templates\registration\logged_out.html:5
 #: .\templates\registration\logged_out.html:10
 msgid "Logged out"
-msgstr "Abgemeldet"
+msgstr "Ausgeloggt"
 
 #: .\templates\registration\logged_out.html:15
 msgid "or"
@@ -203,27 +203,23 @@ msgstr "oder"
 
 #: .\templates\registration\logged_out.html:17
 msgid "Log in again"
-msgstr "Erneut anmelden"
+msgstr "Logge wieder ein"
 
 #: .\templates\registration\login.html:5
 #: .\templates\registration\login.html:10
 #: .\templates\registration\login.html:33
 msgid "Log in"
-msgstr "Anmelden"
+msgstr "Logg in"
 
 #: .\templates\registration\login.html:13
 msgid "Your username and password didn't match. Please try again."
-msgstr ""
-"Der Benutzername und das Passwort stimmen nicht überein. Bitte versuchen Sie "
-"es erneut."
+msgstr "Angegebener Benutzername und Passwort passen nicht zusammen, Bitte, noch einmal versuchen."
 
 #: .\templates\registration\login.html:20
 msgid ""
 "Your account doesn't have access to this page. To proceed, please login with "
 "an account that has access."
-msgstr ""
-"Ihr Konto hat keinen Zugriff auf diese Seite. Um fortzufahren, melden Sie "
-"sich bitte mit einem Konto an, das Zugriff hat."
+msgstr "Deim Konto hat keinen Zugang zu dieser Seite. Um fortzusetzen logge auf das Konto mit entsprechenden Befugnissen ein"
 
 #: .\timetable\forms.py:43 .\timetable\forms.py:199
 #: .\timetable\templates\reservations.html:14
@@ -239,15 +235,15 @@ msgstr "Datum"
 
 #: .\timetable\forms.py:52
 msgid "The given date cannot be in the past"
-msgstr "Das angegebene Datum darf nicht in der Vergangenheit liegen"
+msgstr "Das angegebene Datum kann nicht in der Vergangenheit liegen"
 
 #: .\timetable\forms.py:61
 msgid "The given date must be within a year from now"
-msgstr "Das angegebene Datum muss innerhalb eines Jahres ab jetzt liegen"
+msgstr "Zum angegebenen Datum muss es weniger als ein Jahr liegen"
 
 #: .\timetable\forms.py:63
 msgid "{} has no planned lessons on the given day."
-msgstr "{} hat an diesem Tag keine geplanten Unterrichtsstunden."
+msgstr "Es gibt keine geplanten Unterrichtsstunden am angegebenen Tag"
 
 #: .\timetable\forms.py:70
 msgid "-----"
@@ -256,7 +252,7 @@ msgstr "-----"
 #: .\timetable\forms.py:70 .\timetable\forms.py:157 .\timetable\models.py:122
 #: .\timetable\models.py:167
 msgid "cancelled"
-msgstr "abgesagt"
+msgstr "Abgesagt"
 
 #: .\timetable\forms.py:169 .\timetable\forms.py:198
 msgid "Period number"
@@ -264,34 +260,34 @@ msgstr "Stundennummer"
 
 #: .\timetable\forms.py:186
 msgid "CSV file with substitutions"
-msgstr "CSV-Datei mit Vertretungen"
+msgstr "Die Datei CSV mit den Vertretungen"
 
 #: .\timetable\forms.py:200 .\timetable\templates\reservations.html:15
 #: .\timetable\templates\room_timetable.html:18
 #: .\timetable\templates\rooms.html:46
 #: .\timetable\templates\substitutions.html:23
 msgid "Room"
-msgstr "Raum"
+msgstr "Saal"
 
 #: .\timetable\forms.py:207
 msgid "This room is already reserved during this period."
-msgstr "Dieser Raum ist in dieser Stunde bereits reserviert."
+msgstr "Der Saal ist schon in diesem Unterricht reserviert"
 
 #: .\timetable\forms.py:212
 msgid "Start period"
-msgstr "Startstunde"
+msgstr "Anfangsunterricht"
 
 #: .\timetable\forms.py:213
 msgid "End period"
-msgstr "Endstunde"
+msgstr "Der letzte Unterricht"
 
 #: .\timetable\forms.py:214 .\timetable\templates\absences.html:24
 msgid "Whole day"
-msgstr "Ganztägig"
+msgstr "Der ganze Tag"
 
 #: .\timetable\forms.py:215 .\timetable\templates\absences.html:14
 msgid "Reason"
-msgstr "Grund"
+msgstr "Der Grund"
 
 #: .\timetable\forms.py:216 .\timetable\templates\absences.html:12
 #: .\timetable\templates\group_timetable.html:7
@@ -299,15 +295,15 @@ msgstr "Grund"
 #: .\timetable\templates\rooms.html:49
 #: .\timetable\templates\substitutions.html:22
 msgid "Group"
-msgstr "Gruppe"
+msgstr "Die Gruppe"
 
 #: .\timetable\forms.py:228
 msgid "Provide initial and final period."
-msgstr "Bitte geben Sie die erste und letzte Stunde an."
+msgstr "Bitte trage den Anfangs- und Endunterricht ein!"
 
 #: .\timetable\forms.py:230
 msgid "The initial period cannot be later than the final period."
-msgstr "Die erste Stunde darf nicht später als die letzte Stunde sein."
+msgstr "Der Anfangsunterricht kann nicht später als der letzte Unterricht sein"
 
 #: .\timetable\forms.py:242
 msgid "Date and time"
@@ -331,20 +327,20 @@ msgstr "link_to_class benötigt genau eine Klasse"
 
 #: .\timetable\models.py:139 .\timetable\templates\add_substitutions.html:29
 msgid "Lesson"
-msgstr "Stunde"
+msgstr "Der Unterricht"
 
 #: .\timetable\models.py:208
 msgid "A class cannot play a match against itself"
-msgstr "Eine Klasse kann kein Spiel gegen sich selbst austragen"
+msgstr "Eine Klasse kann nicht gegen sich selbst spielen"
 
 #: .\timetable\templates\absences.html:4
 #: .\timetable\templates\management.html:75
 msgid "Absences"
-msgstr "Abwesenheiten"
+msgstr "Die Abwesenheit der Gruppen"
 
 #: .\timetable\templates\absences.html:13
 msgid "Periods"
-msgstr "Stunden"
+msgstr "Die Stunden"
 
 #: .\timetable\templates\absences.html:16
 #: .\timetable\templates\reservations.html:17
@@ -354,15 +350,15 @@ msgstr "Löschen?"
 
 #: .\timetable\templates\absences.html:39
 msgid "none"
-msgstr "keine"
+msgstr "Mangel"
 
 #: .\timetable\templates\add_absence.html:5
 msgid "Group absences"
-msgstr "Gruppenabwesenheiten"
+msgstr "Die Abwesenheit der Gruppen"
 
 #: .\timetable\templates\add_absence.html:10
 msgid "Adding group absences"
-msgstr "Gruppenabwesenheiten hinzufügen"
+msgstr "Zufügen der Abwesenheit von den Gruppen"
 
 #: .\timetable\templates\add_absence.html:13
 #: .\timetable\templates\add_dayplan.html:13
@@ -378,22 +374,22 @@ msgstr "Das heutige Datum ist %(today)s."
 #: .\timetable\templates\add_dayplan.html:21
 #: .\timetable\templates\add_reservation.html:21
 msgid "Submit"
-msgstr "Absenden"
+msgstr "Bestätige"
 
 #: .\timetable\templates\add_dayplan.html:5
 msgid "Dayplan"
-msgstr "Tagesplan"
+msgstr "Der Plan der Glocken"
 
 #: .\timetable\templates\add_dayplan.html:10
 msgid "Adding dayplan"
-msgstr "Tagesplan hinzufügen"
+msgstr "Das Zufügen des Glockenplans"
 
 #: .\timetable\templates\add_match.html:5
 #: .\timetable\templates\management.html:82
 #: .\timetable\templates\matches.html:4
 #: .\timetable\templates\matches_page.html:5
 msgid "Matches"
-msgstr "Spiele"
+msgstr "Spiele zwischen Klassen"
 
 #: .\timetable\templates\add_match.html:10
 msgid "Adding matches"
@@ -407,20 +403,20 @@ msgstr "Spiel hinzufügen"
 #: .\timetable\templates\management.html:68
 #: .\timetable\templates\reservations.html:4
 msgid "Reservations"
-msgstr "Raumreservierungen"
+msgstr "Die Saalreservierung"
 
 #: .\timetable\templates\add_reservation.html:10
 msgid "Adding reservations"
-msgstr "Reservierungen hinzufügen"
+msgstr "Das Zufügen der Reservierung"
 
 #: .\timetable\templates\add_substitutions.html:5
 #, python-format
 msgid "Adding substitutions for %(teacher)s on %(date)s"
-msgstr "Vertretungen für %(teacher)s am %(date)s hinzufügen"
+msgstr "Das Zufügen der Vertretungen für %(teacher)s am %(date)s"
 
 #: .\timetable\templates\add_substitutions.html:13
 msgid "Adding substitutions — step 2"
-msgstr "Vertretungen hinzufügen — Schritt 2"
+msgstr "Das Zufügen der Vertretungen - Schritt 2"
 
 #: .\timetable\templates\add_substitutions.html:18
 #, python-format
@@ -428,7 +424,7 @@ msgid ""
 "Substitutions for <a href=\"%(url)s\">%(teacher)s</a> on %(date)s "
 "(%(weekday)s). "
 msgstr ""
-"Vertretungen für <a href=\"%(url)s\">%(teacher)s</a> am %(date)s "
+"Die Vertretungen für <a href=\"%(url)s\">%(teacher)s</a> am %(date)s "
 "(%(weekday)s)."
 
 #: .\timetable\templates\add_substitutions.html:28
@@ -443,26 +439,26 @@ msgstr "Nr."
 #: .\timetable\templates\add_substitutions.html:30
 #: .\timetable\templates\substitutions.html:21
 msgid "Substitute"
-msgstr "Vertretung"
+msgstr "Der Vertreter"
 
 #: .\timetable\templates\add_substitutions.html:54
 #, python-format
 msgid "%(name)s has no planned lessons on that day (%(weekday)s)."
-msgstr "%(name)s hat an diesem Tag (%(weekday)s) keine geplanten Stunden."
+msgstr "Es gibt keinen geplanten Unterricht für %(name)s an diesem Tag (%(weekday)s)."
 
 #: .\timetable\templates\class_timetable.html:5
 #: .\timetable\templates\class_timetable.html:22
 #: .\timetable\templates\group_timetable.html:39
 msgid "Class"
-msgstr "Klasse"
+msgstr "Die Klasse"
 
 #: .\timetable\templates\csv_import_success.html:6
 msgid "CSV file imported"
-msgstr "CSV-Datei importiert"
+msgstr "Die Datei CSV wurde importiert"
 
 #: .\timetable\templates\csv_import_success.html:11
 msgid "Substitutions imported successfully"
-msgstr "Vertretungen erfolgreich importiert"
+msgstr "Die Vertretungen wurden erfolgreich importiert"
 
 #: .\timetable\templates\csv_import_success.html:13
 #, python-format
@@ -475,7 +471,7 @@ msgstr ""
 
 #: .\timetable\templates\csv_import_success.html:20
 msgid "Added/updated"
-msgstr "Hinzugefügt/aktualisiert"
+msgstr "Zugefügt / aktualisiert"
 
 #: .\timetable\templates\csv_import_success.html:27
 msgid "Errors"
@@ -489,27 +485,27 @@ msgstr "Fehler"
 #: .\timetable\templates\substitutions.html:4
 #: .\timetable\templates\teacher_and_date_select.html:5
 msgid "Substitutions"
-msgstr "Vertretungen"
+msgstr "Die Vertretungen"
 
 #: .\timetable\templates\date_select.html:10
 msgid "Select date"
-msgstr "Datum auswählen"
+msgstr "Wähle das Datum aus"
 
 #: .\timetable\templates\date_select.html:21
 #: .\timetable\templates\teacher_and_date_select.html:21
 msgid "Go to the next step"
-msgstr "Zum nächsten Schritt gehen"
+msgstr "Geh zum nächsten Schritt über!"
 
 #: .\timetable\templates\dayplans.html:11
 #, python-format
 msgctxt "dayplans"
 msgid "%(schedule)s takes effect."
-msgstr "%(schedule)s treten in Kraft."
+msgstr "%(schedule)s gelten."
 
 #: .\timetable\templates\dayplans.html:15
 msgctxt "dayplans"
 msgid "lessons are cancelled."
-msgstr "Stunden fallen aus."
+msgstr "Der Unterricht ist abgesagt"
 
 #: .\timetable\templates\display.html:82
 msgid "Last connection:"
@@ -523,46 +519,46 @@ msgstr "Kalender"
 
 #: .\timetable\templates\edit_calendar.html:12
 msgid "Add or change schedules for future dates."
-msgstr "Zeitpläne für zukünftige Daten hinzufügen oder ändern."
+msgstr "Ändere Glockenplan..."
 
 #: .\timetable\templates\edit_calendar.html:22
 msgid "Schedule"
-msgstr "Stundenplan"
+msgstr "Die Glockenart"
 
 #: .\timetable\templates\group_timetable.html:9
 #: .\timetable\templates\group_timetable.html:32
 msgid "Groups"
-msgstr "Gruppen"
+msgstr "Die Gruppen"
 
 #: .\timetable\templates\group_timetable.html:41
 #: .\timetable\templates\matches.html:13
 msgid "Classes"
-msgstr "Klassen"
+msgstr "Die Klassen"
 
 #: .\timetable\templates\import_substitutions.html:6
 msgid "Import from CSV"
-msgstr "Aus CSV importieren"
+msgstr "Importiere aus CSV"
 
 #: .\timetable\templates\import_substitutions.html:11
 msgid "Import substitutions from a CSV file"
-msgstr "Vertretungen aus einer CSV-Datei importieren"
+msgstr "Importiere die Vertretungen aus der Datei CSV"
 
 #: .\timetable\templates\import_substitutions.html:17
 msgid "Import"
-msgstr "Importieren"
+msgstr "Importiere"
 
 #: .\timetable\templates\management.html:12
 #, python-format
 msgid "Logged in as %(user)s."
-msgstr "Angemeldet als %(user)s."
+msgstr "Eingeloggt als %(user)s."
 
 #: .\timetable\templates\management.html:19
 msgid "Log out"
-msgstr "Abmelden"
+msgstr "Ausloggen"
 
 #: .\timetable\templates\management.html:24
 msgid "Change password"
-msgstr "Passwort ändern"
+msgstr "Ändere das Passwort!"
 
 #: .\timetable\templates\management.html:30
 msgid "Administration"
@@ -570,20 +566,18 @@ msgstr "Verwaltung"
 
 #: .\timetable\templates\management.html:42
 msgid "Print substitutions"
-msgstr "Vertretungen drucken"
+msgstr "Drucke die Vertretungen aus!"
 
 #: .\timetable\templates\management.html:48
 msgid "Import substitutions from CSV"
-msgstr "Vertretungen aus CSV importieren"
+msgstr "Importiere die Vertretungen aus CSV"
 
 #: .\timetable\templates\management.html:90
 #, python-format
 msgid ""
 "Due to efficiency reasons up to %(cache_time)s minutes may be needed to see "
 "changes on other pages."
-msgstr ""
-"Aus Effizienzgründen kann es bis zu %(cache_time)s Minuten dauern, bis "
-"Änderungen auf anderen Seiten sichtbar sind."
+msgstr "Aus Effizienzgründen kann man bis zu %(cache_time)s Minuten benötigen, um die Änderungen auf anderen Unterseiten zu sehen."
 
 #: .\timetable\templates\matches.html:11
 msgid "Time"
@@ -599,11 +593,11 @@ msgstr ""
 #: .\timetable\templates\personalization.html:5
 #: .\timetable\templates\personalization.html:9
 msgid "Timetable personalization"
-msgstr "Stundenplan-Personalisierung"
+msgstr "Die Personalisierung des Planes"
 
 #: .\timetable\templates\personalization.html:24
 msgid "Go to timetable"
-msgstr "Zum Stundenplan gehen"
+msgstr "Geh zum Plan über!"
 
 #: .\timetable\templates\personalization_modal.html:2
 #: .\timetable\templates\personalization_modal.html:7
@@ -616,7 +610,7 @@ msgstr "Vertretungen im Stundenplan anzeigen"
 
 #: .\timetable\templates\personalization_modal.html:13
 msgid "On/off substitutions"
-msgstr "Vertretungen ein-/ausblenden"
+msgstr "Vertretungen ein-/ausschalten"
 
 #: .\timetable\templates\personalization_modal.html:20
 msgid "Colors of subjects"
@@ -632,62 +626,62 @@ msgstr "Farbe:"
 
 #: .\timetable\templates\personalization_modal.html:37
 msgid "Select groups to show"
-msgstr "Gruppen zur Anzeige auswählen"
+msgstr "Wähle die Gruppen zum Zeigen aus!"
 
 #: .\timetable\templates\print_substitutions1.html:10
 #: .\timetable\templates\print_substitutions2.html:19
 #: .\timetable\templates\show_substitutions_to_print.html:5
 msgid "Printing substitutions"
-msgstr "Vertretungen drucken"
+msgstr "Drucke die Vertretungen aus!"
 
 #: .\timetable\templates\print_substitutions1.html:21
 #: .\timetable\templates\timetable_select.html:31
 msgid "Go"
-msgstr "Los"
+msgstr "geh!"
 
 #: .\timetable\templates\print_substitutions2.html:22
 #, python-format
 msgid "You're printing substitutions for %(date)s."
-msgstr "Sie drucken Vertretungen für %(date)s."
+msgstr "Du druckst die Vertretungen für das Datum %(date)s aus."
 
 #: .\timetable\templates\print_substitutions2.html:30
 msgid "Select all"
-msgstr "Alle auswählen"
+msgstr "Wähle alle aus!"
 
 #: .\timetable\templates\print_substitutions2.html:44
 msgid "Print"
-msgstr "Drucken"
+msgstr "Drucke!"
 
 #: .\timetable\templates\reservations.html:13
 #: .\timetable\templates\substitutions.html:20
 #: .\timetable\templates\timetable_base.html:36
 msgctxt "timetable header"
 msgid "Period"
-msgstr "Stunde"
+msgstr "Die Stunde"
 
 #: .\timetable\templates\room_timetable.html:22
 msgid "Classroom"
-msgstr "Klassenzimmer"
+msgstr "Der Klassenraum"
 
 #: .\timetable\templates\rooms.html:5 .\timetable\templates\rooms.html:9
 #: .\timetable\templates\rooms_date_period_select.html:6
 msgid "Rooms"
-msgstr "Räume"
+msgstr "Die Klassenräume"
 
 #: .\timetable\templates\rooms.html:11
 #, python-format
 msgid "Showing lessons by room on %(date)s, period number %(period)s."
-msgstr "Stunden nach Raum am %(date)s, Stundennummer %(period)s."
+msgstr "Der Unterricht in den Klassenräumen am %(date)s, Stunde Nr. %(period)s."
 
 #: .\timetable\templates\rooms.html:48
 msgctxt "school subject"
 msgid "Subject"
-msgstr "Fach"
+msgstr "Das Schulfach"
 
 #: .\timetable\templates\rooms_date_period_select.html:6
 #: .\timetable\templates\rooms_date_period_select.html:11
 msgid "Select date and period"
-msgstr "Datum und Stunde auswählen"
+msgstr "Wähle das Datum und die Stundennummer aus!"
 
 #: .\timetable\templates\rooms_date_period_select.html:12
 msgid "Select the time for which to show lessons by room."
@@ -696,31 +690,30 @@ msgstr ""
 
 #: .\timetable\templates\rooms_date_period_select.html:18
 msgid "Show lessons in rooms"
-msgstr "Stunden in Räumen anzeigen"
+msgstr "Zeige den Unterricht in den Klassenräumen!"
 
 #: .\timetable\templates\schedules.html:6
 #: .\timetable\templates\schedules.html:11
 #: .\timetable\templates\timetable_footer.html:3
 msgid "Schedules"
-msgstr "Zeitpläne"
+msgstr "Glockenpläne"
 
 #: .\timetable\templates\show_substitutions_to_print.html:16
 msgid "There are no substitutions that meet the given criteria."
-msgstr "Es gibt keine Vertretungen, die den angegebenen Kriterien entsprechen."
+msgstr "Es gibt keine Vertretungen, die die ausgewählten Kriterien erfüllen."
 
 #: .\timetable\templates\teacher_and_date_select.html:10
 msgid "Adding substitutions — step 1"
-msgstr "Vertretungen hinzufügen — Schritt 1"
+msgstr "Das Zufügen der Vertretungen - Schritt 1"
 
 #: .\timetable\templates\timer.html:3
 msgid "<time></time> until the first period today."
-msgstr "Noch <time></time> bis zur ersten Stunde heute."
+msgstr "Zum ersten Unterricht: <time></time>"
 
 #: .\timetable\templates\timer.html:6
 msgid ""
 "<time></time> until the end of period no. <span class=\"period-no\"></span>."
-msgstr ""
-"Noch <time></time> bis zum Ende der <span class=\"period-no\"></span> Stunde."
+msgstr "Zum Ende des Unterrichts: <time></time>"
 
 #: .\timetable\templates\timer.html:9
 msgid "<time></time> until period no. <span class=\"period-no\"></span>."
@@ -728,11 +721,11 @@ msgstr "Noch <time></time> bis zur <span class=\"period-no\"></span>. Stunde."
 
 #: .\timetable\templates\timer.html:12
 msgid "Lessons have already finished today."
-msgstr "Der Unterricht ist heute bereits beendet."
+msgstr "Die Unterrichtsstunden sind schon aus"
 
 #: .\timetable\templates\timetable_base.html:21
 msgid "Set as default timetable"
-msgstr "Als Standard-Stundenplan festlegen"
+msgstr "Stelle als den voreingestellten Stundenplan ein!"
 
 #: .\timetable\templates\timetable_base.html:83
 msgid "Click to change color"
@@ -744,19 +737,19 @@ msgstr "Stunden zu einer bestimmten Zeit anzeigen"
 
 #: .\timetable\templates\timetable_select.html:3
 msgid "Choose timetable to display"
-msgstr "Anzuzeigenden Stundenplan auswählen"
+msgstr "Wähle den Stundenplan aus!"
 
 #: .\timetable\templates\timetable_select.html:7
 msgid "Choose a class"
-msgstr "Eine Klasse auswählen"
+msgstr "Wähle die Klasse aus!"
 
 #: .\timetable\templates\timetable_select.html:15
 msgid "Choose a teacher"
-msgstr "Einen Lehrer auswählen"
+msgstr "Wähle den Lehrer aus!"
 
 #: .\timetable\templates\timetable_select.html:23
 msgid "Choose a classroom"
-msgstr "Ein Klassenzimmer auswählen"
+msgstr "Wähle den Klassenraum aus!"
 
 #: .\timetable\tests.py:13 .\zorza\settings.py:150
 msgid "Monday"
@@ -788,8 +781,8 @@ msgstr "Sonntag"
 
 #: .\timetable\views.py:164
 msgid "Select at least one group"
-msgstr "Wählen Sie mindestens eine Gruppe aus"
+msgstr "Wähle mindestens eine Gruppe aus!"
 
 #: .\timetable\views.py:529
 msgid "Select at least one teacher"
-msgstr "Wählen Sie mindestens einen Lehrer aus"
+msgstr "Wähle mindestens einen Lehrer aus!"

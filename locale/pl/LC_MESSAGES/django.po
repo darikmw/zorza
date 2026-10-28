@@ -619,7 +619,7 @@ msgstr "Pokazywanie zastępstw w planie"
 
 #: .\timetable\templates\personalization_modal.html:13
 msgid "On/off substitutions"
-msgstr "Wł./wył. zastępstw"
+msgstr "Włącz/wyłącz zastępstwa"
 
 #: .\timetable\templates\personalization_modal.html:20
 msgid "Colors of subjects"

@@ -1,6 +1,6 @@
 "use strict";
 
-function generateSubjectColor(subjectShort, seed = 2) {
+function generateSubjectColor(subjectShort, seed = 1645675200) {
     const custom = localStorage.getItem('subjectColor_' + subjectShort);
     if (custom) return custom;
 
