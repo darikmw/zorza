@@ -40,10 +40,9 @@ body {
 	position: relative;
 	display: flex;
 	padding: 0.5rem 1rem;
-	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-	height: 4rem;
+	min-height: 4rem;
 }
 
 .site-logo {
@@ -190,6 +189,11 @@ a {
 		align-items: center;
 		gap: 0.25rem;
 		white-space: nowrap;
+	}
+	img.emoji {
+		height: 1.1em;
+		width: 1.1em;
+		vertical-align: -0.15em;
 	}
 	.lang-arrow {
 		font-size: 0.75em;
@@ -407,7 +411,6 @@ caption {
 	margin-bottom: 0.3rem;
 }
 
-
 article {
 	max-width: 44rem;
 	background: white;
@@ -421,6 +424,12 @@ table.substitution {
 	margin: 0 auto 1rem auto;
 }
 
+
+@media (max-width: 576px) {
+	.nav-link {
+		padding: 0.5rem 0.5rem;
+	}
+}
 
 @media print {
 	* {
@@ -449,6 +458,7 @@ table.substitution {
 		padding: 3rem;
 	}
 }
+
 @media (min-width: 768px) {
 	html {
 		font-size: 15px;

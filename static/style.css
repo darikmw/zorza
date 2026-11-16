@@ -30,20 +30,20 @@ body {
   position: relative;
   display: flex;
   padding: 0.5rem 1rem;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  height: 4rem;
+  min-height: 4rem;
 }
 
 .site-logo {
   padding: 0.8rem 1rem;
   margin-left: -1rem;
-  display: inline-block;
 }
-
 .site-logo > img {
   height: 1.1rem;
+}
+.site-logo {
+  display: inline-block;
 }
 
 h1.logo-wrapper {
@@ -58,12 +58,13 @@ h1.logo-wrapper {
 
 table {
   border-collapse: collapse !important;
-  margin-bottom: 1rem;
 }
-
 table th, table td {
   border-bottom: 1px solid rgba(255, 255, 255, 0.14);
   padding: 0.3rem 0.5rem;
+}
+table {
+  margin-bottom: 1rem;
 }
 
 col.highlight {
@@ -81,28 +82,23 @@ tr.break-highlight {
 .timetable {
   width: 100%;
 }
-
 .timetable td:nth-child(1) {
   text-align: center;
   padding-right: 0;
   padding-left: 0;
 }
-
 .timetable td:nth-child(2) {
   text-align: center;
   white-space: normal;
   padding-left: 0;
 }
-
 .timetable td:nth-child(n+3) {
   width: 10rem;
 }
-
 .timetable th:nth-child(1) {
   padding-left: 0.2rem;
   padding-right: 0.2rem;
 }
-
 .timetable th:nth-child(2) {
   padding-left: 0.2rem;
 }
@@ -110,11 +106,9 @@ tr.break-highlight {
 .lesson-onerow {
   white-space: nowrap;
 }
-
 .lesson-onerow * {
   display: table-cell;
 }
-
 .lesson-onerow :nth-child(2) {
   width: 100%;
   padding-left: 0.4rem;
@@ -125,9 +119,8 @@ tr.break-highlight {
   white-space: nowrap;
   text-align: center;
 }
-
 .lesson-tworows :nth-child(3)::before {
-  content: ' ';
+  content: " ";
   display: block;
 }
 
@@ -147,7 +140,6 @@ a {
   color: #79b6da;
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }
@@ -170,11 +162,9 @@ a:hover {
   text-decoration: none;
   font-size: 1.1rem;
 }
-
 .nav-link:focus, .nav-link:hover {
   text-decoration: none;
 }
-
 .nav-link:hover {
   color: #79b6da;
   transition: all 0.2s ease;
@@ -195,6 +185,11 @@ a:hover {
   align-items: center;
   gap: 0.25rem;
   white-space: nowrap;
+}
+.lang-switcher img.emoji {
+  height: 1.1em;
+  width: 1.1em;
+  vertical-align: -0.15em;
 }
 .lang-switcher .lang-arrow {
   font-size: 0.75em;
@@ -246,7 +241,6 @@ footer {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
-
 footer a {
   font-size: 1.1rem;
   padding: 0.3rem;
@@ -272,7 +266,6 @@ select {
   color: #79b6da;
   padding: 0 !important;
 }
-
 #set-def-button:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -296,11 +289,11 @@ input {
   height: 2.7rem;
 }
 
-input[type="checkbox"] {
+input[type=checkbox] {
   height: auto;
 }
 
-input[type="file"] {
+input[type=file] {
   padding: 0;
   color: white;
   background: transparent;
@@ -326,7 +319,6 @@ button, .button {
   background: transparent;
   color: #79b6da;
 }
-
 button:hover, .button:hover {
   cursor: pointer;
 }
@@ -338,11 +330,9 @@ button:hover, .button:hover {
   border-bottom: rgba(0, 0, 0, 0.5) solid 1px;
   outline: none;
 }
-
 .button-primary:hover {
-  background: linear-gradient(150deg, #368665, #2a6b59);
+  background: linear-gradient(150deg, rgb(54.3527607362, 134.1472392638, 100.6104294479), rgb(42.1975806452, 107.3024193548, 89.2177419355));
 }
-
 .button-primary:active {
   background: linear-gradient(150deg, #23594a, #2f7457);
   border-top: #23594a solid 1px;
@@ -353,7 +343,6 @@ button:hover, .button:hover {
   max-width: 25rem;
   margin: 0 auto;
 }
-
 .form-small select {
   display: block;
   width: 100%;
@@ -369,8 +358,7 @@ button:hover, .button:hover {
 label.group-checkbox {
   display: inline-block;
 }
-
-label.group-checkbox input[type="checkbox"] {
+label.group-checkbox input[type=checkbox] {
   display: inline-block;
   width: auto;
   padding: 0;
@@ -396,15 +384,12 @@ caption {
   color: rgba(255, 255, 255, 0.9);
   line-height: 1;
 }
-
 .item .title {
   font-weight: bold;
 }
-
 .item .author, .item .file-description {
   font-size: 80%;
 }
-
 .item .created-date {
   font-size: 80%;
 }
@@ -412,7 +397,6 @@ caption {
 .subcategories {
   font-size: 1.1rem;
 }
-
 .subcategories .category {
   font-weight: bold;
 }
@@ -438,6 +422,11 @@ table.substitution {
   margin: 0 auto 1rem auto;
 }
 
+@media (max-width: 576px) {
+  .nav-link {
+    padding: 0.5rem 0.5rem;
+  }
+}
 @media print {
   * {
     color: black !important;
@@ -450,7 +439,6 @@ table.substitution {
     display: inline !important;
   }
 }
-
 @media (min-width: 576px) {
   html {
     font-size: 14px;
@@ -464,7 +452,6 @@ table.substitution {
     padding: 3rem;
   }
 }
-
 @media (min-width: 768px) {
   html {
     font-size: 15px;
@@ -485,8 +472,9 @@ table.substitution {
     padding: 4rem;
   }
 }
-
 pre {
   font-family: monospace;
   overflow-x: auto;
 }
+
+/*# sourceMappingURL=style.css.map */

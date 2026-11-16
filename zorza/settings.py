@@ -121,6 +121,7 @@ USE_TZ = True
 
 LANGUAGES = [
     ('pl', 'Polish'),
+    ('en', 'English'),
     ('de', 'German'),
     ('ru', 'Russian'),
     ('uk', 'Ukrainian'),

@@ -23,13 +23,14 @@
 					{% get_current_language as current_lang %}
 					<li class="nav-item lang-switcher">
 						<span class="nav-link lang-current">
-							{% if current_lang == 'pl' %}🇵🇱 PL{% elif current_lang == 'de' %}🇩🇪 DE{% elif current_lang == 'ru' %}🇷🇺 RU{% elif current_lang == 'uk' %}🇺🇦 UK{% else %}{{ current_lang|upper }}{% endif %} <span class="lang-arrow">▾</span>
+							{% if current_lang == 'de' %}🇩🇪 DE{% elif current_lang == 'en' %}🇬🇧 EN{% elif current_lang == 'pl' %}🇵🇱 PL{% elif current_lang == 'ru' %}🇷🇺 RU{% elif current_lang == 'uk' %}🇺🇦 UK{% else %}{{ current_lang|upper }}{% endif %} <span class="lang-arrow">▾</span>
 						</span>
 						<ul class="lang-dropdown">
-							<li><a href="#" onclick="setLang('pl'); return false;">🇵🇱 PL</a></li>
-							<li><a href="#" onclick="setLang('uk'); return false;">🇺🇦 UK</a></li>
-							<li><a href="#" onclick="setLang('ru'); return false;">🇷🇺 RU</a></li>
 							<li><a href="#" onclick="setLang('de'); return false;">🇩🇪 DE</a></li>
+							<li><a href="#" onclick="setLang('en'); return false;">🇬🇧 EN</a></li>
+							<li><a href="#" onclick="setLang('pl'); return false;">🇵🇱 PL</a></li>
+							<li><a href="#" onclick="setLang('ru'); return false;">🇷🇺 RU</a></li>
+							<li><a href="#" onclick="setLang('uk'); return false;">🇺🇦 UK</a></li>
 						</ul>
 					</li>
 					<li class="nav-item">
@@ -63,7 +64,7 @@
 		<script src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>
 		<script>
 		const browserLang = (navigator.language || '').slice(0, 2);
-		if (browserLang === 'pl') { // If the user's browser language is Polish, hide the language switcher since it's the default language
+		if (browserLang === 'pl' && document.documentElement.lang === 'pl') { // Hide the language switcher only if both the browser and the current site language are Polish
 			const switcher = document.querySelector('.lang-switcher');
 			if (switcher) switcher.remove();
 		}
@@ -88,4 +89,3 @@
 		</script>
 	</body>
 </html>
-
